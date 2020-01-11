@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowJs": true,
+    "checkJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noEmitOnError": false,
+    "noEmit": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "baseUrl": ".",
+    "module": "es6",
+    "paths": {
+      "fetch": ["node_modules/ember-fetch"],
+      "shlack/tests/*": ["tests/*"],
+      "shlack/*": ["app/*"],
+      "*": ["types/*"]
+    }
+  },
+  "include": ["app", "tests", "types"]
+}
